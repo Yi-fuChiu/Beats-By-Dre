@@ -57,6 +57,81 @@ header .logo {
   background-size: 40px;
 }
 
+
+
+header ul {
+  float: right;
+  margin-top: 10px;
+  padding: 0;
+  width: calc(100%-60px);
+  text-align: right;
+}
+
+header li {
+  display: inline-block;
+  margin-left: 25px;
+
+}
+
+header a,
+header a: visited {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+header a: hover,
+header a: visited,
+header a: focus,
+header a: active {
+  opacity: 0.9;
+  color: white;
+  background: none;
+  text-decoration: none;
+}
+
+.desktop-nav .logo {
+  float: left;
+}
+
+.mobil-nav {
+  display: none;
+  text-align: center;
+}
+
+.mobil-nav .logo {
+  display: inline-block;
+}
+
+.mobil-nav .hanmberger-container,
+.mobil-nav .search-container {
+  width: 40px;
+  display: inline-block;
+  background: red;
+  margin-left: -4px;
+}
+
+.mobil-nav .logo-container {
+  display: inline-block;
+  margin-left: -4px;
+  width: calc(100% - 80px);
+}
+
+.mobil-nav button {
+  background: transparent;
+  border:none;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .mobil-nav {
+    display: block;
+  }
+  .desktop-nav {
+      display: none;
+  }
+}
+
 .hero {
   height: 400px;
   background: #999;
