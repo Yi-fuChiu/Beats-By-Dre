@@ -63,7 +63,7 @@ header ul {
   float: right;
   margin-top: 10px;
   padding: 0;
-  width: calc(100%-60px);
+  width: calc(100% - 60px);
   text-align: right;
 }
 
@@ -74,19 +74,17 @@ header li {
 }
 
 header a,
-header a: visited {
+header a:visited {
   color: white;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
 }
 
-header a: hover,
-header a: visited,
-header a: focus,
-header a: active {
+header a:hover,
+header a:focus,
+header a:active {
   opacity: 0.9;
   color: white;
-  background: none;
   text-decoration: none;
 }
 
@@ -94,38 +92,37 @@ header a: active {
   float: left;
 }
 
-.mobil-nav {
+.mobile-nav {
   display: none;
   text-align: center;
 }
 
-.mobil-nav .logo {
+.mobile-nav .logo {
   display: inline-block;
 }
 
-.mobil-nav .hanmberger-container,
-.mobil-nav .search-container {
+.mobile-nav .hamburger-container,
+.mobile-nav .search-container {
   width: 40px;
   display: inline-block;
-  background: red;
   margin-left: -4px;
 }
 
-.mobil-nav .logo-container {
+.mobile-nav .logo-container {
   display: inline-block;
   margin-left: -4px;
   width: calc(100% - 80px);
 }
 
-.mobil-nav button {
+.mobile-nav button {
   background: transparent;
-  border:none;
+  border: none;
   color: white;
 }
 
 @media (max-width: 768px) {
-  .mobil-nav {
-    display: block;
+  .mobile-nav {
+      display: block;
   }
   .desktop-nav {
       display: none;
