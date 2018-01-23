@@ -92,6 +92,7 @@ header a:active {
   float: left;
 }
 
+/*  Mobile */
 .mobile-nav {
   display: none;
   text-align: center;
@@ -103,6 +104,8 @@ header a:active {
 
 .mobile-nav .hamburger-container,
 .mobile-nav .search-container {
+  vertical-align: top;
+  margin-top: 8px;
   width: 40px;
   display: inline-block;
   margin-left: -4px;
