@@ -11,9 +11,8 @@
 **********************/
 
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Nunito', sans-serif;
-
 }
 
 h1 {
@@ -31,8 +30,16 @@ h3 {
   font-weight: 700;
 }
 
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
 p {
   font-family: sans-serif;
+}
+
+
 }
 
 .button {
@@ -64,6 +71,27 @@ p {
   color: white;
 }
 
+.logo {
+  background-image: url('../img/logo.svg');
+  height: 40px;
+  width: 40px;
+  background-size: 40px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+
 /*******************
  Header styles
 **********************/
@@ -74,16 +102,12 @@ header {
   padding-top: 20px;
 }
 
-header .logo {
-  background-image: url('../img/logo.svg');
-  height: 40px;
-  width: 40px;
-  background-size: 40px;
-}
+/*******************
+ Desktop
+**********************/
 
 
-
-header ul {
+.desktop-nav ul {
   float: right;
   margin-top: 10px;
   padding: 0;
@@ -91,22 +115,20 @@ header ul {
   text-align: right;
 }
 
-header li {
+.desktop-nav li {
   display: inline-block;
   margin-left: 25px;
 
 }
 
-header a,
-header a:visited {
+.desktop-nav a,
+.desktop-nav a:visited {
   color: white;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
 }
 
-header a:hover,
-header a:focus,
-header a:active {
+.desktop-nav a:hover,
+.desktop-nav a:focus,
+.desktop-nav a:active {
   opacity: 0.9;
   color: white;
   text-decoration: none;
@@ -229,4 +251,26 @@ feature-prolduct section
 .subscription-container {
   height: 400px;
   background: #666;
+}
+/*******************
+ footer section
+**********************/
+footer {
+  height: 400px;
+  background: white;
+  padding: 80px 0;
+}
+
+footer a {
+  color: #999;
+  font-size: 0.8em;
+  line-height: 3;
+}
+
+.social-icons li {
+  display: inline-block;
+}
+.social-icons i {
+  font-size: 2em;
+  margin-right: 5px;
 }
